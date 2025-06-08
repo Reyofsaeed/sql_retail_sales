@@ -178,7 +178,7 @@ WHERE rank = 1;
 
 ```
 
-7. **Write a SQL query to find the top 5 customers based on the highest total sales **:
+7. **Write a SQL query to find the top 5 customers based on the highest total sales**:
 ```sql
 SELECT customer_id,sum(total_sale) as sales
 FROM retail_sales
@@ -187,7 +187,7 @@ order by sales desc
 limit 5
 ```
 
-9. **Write a SQL query to find the number of unique customers who purchased items from each category.**:
+8. **Write a SQL query to find the number of unique customers who purchased items from each category.**:
 ```sql
 
 SELECT count(distinct customer_id)as unique_customers,category
